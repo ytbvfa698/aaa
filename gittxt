@@ -1,0 +1,62 @@
+# tokenの使用期限に注意
+
+# 強制的にpush
+
+git push -f origin master
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# gitにユーザーを登録
+
+$ git config --global user.name "<ユーザー名>"
+
+$ git config --global user.email "xxxx@example.com"
+
+
+
+# gitに関する設定を一覧化
+
+$ git config --list
+
+
+
+GitHubでリポジトリ作成
+
+
+
+# フォルダがあるディレクトリに移動し、以下のコマンドを実行
+
+$ git init
+
+
+
+# ローカルとGitHubリポジトリを紐付けます
+
+$ git remote add origin https://github.com/(username)/(reponame).git
+
+
+
+
+# 以下で済むかもしれない。プッシュ以降はテキスト通り
+
+$ git clone [リポジトリurl]
+
+
