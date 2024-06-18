@@ -1,0 +1,7 @@
+/new ==/,/ddd/{
+     s/""/""/
+     s/aaa//
+     s/bbb//
+     s/ccc//
+     s/ddd//
+}
